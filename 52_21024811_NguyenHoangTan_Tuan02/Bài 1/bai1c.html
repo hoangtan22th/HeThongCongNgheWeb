@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai1c</title>
+    <style>
+        .p{
+            border: 1px solid rgb(197, 114, 142);
+            height: 780px;
+            width: 1200px;
+            margin: auto;
+            background-color: white; 
+        }
+
+        header{
+            height: 50px;
+            width: 1200px;
+            font-size: 18px;
+            text-align: center;
+            color: rgb(190, 40, 73);
+        }
+
+        header h2{
+            text-shadow: 2px 11px 3px  rgb(240, 109, 137);
+        }
+
+        nav{
+            height: 35px;
+            width: 1200px;
+            border: 1px solid rgb(197, 114, 142);
+            border: 1px solid rgb(197, 114, 142);
+            display: flex;
+            align-items: center;
+            background-color: #ED9195;
+            text-align: center;
+            color: white;
+        }
+
+        nav img{
+            padding-left: 300px;
+            padding-bottom: 10px;
+        }
+
+        nav p span{
+            font-size: 25px;
+        }
+
+        nav p {
+            padding-top: 7px;
+            padding-bottom: 13px; 
+            font-size: 13px;
+        }
+
+       .content{
+            height: 614px;
+            width: 1200px;
+        }
+
+        article{
+            height: 614px;
+            width: 205px;
+            background-color: white;
+            display: flex;
+            float: left;
+        }
+
+        article ul li{
+            border-radius: 16px; 
+            background-color: #ED9195;
+            padding: 1px;
+            color: white;
+            width: 192px; 
+            display: inline-block; 
+            text-decoration: none;
+            border: 1px solid #f1989e;
+            margin-bottom: 10px;
+        }
+
+        article ul{
+            padding-left: 1px;
+        }
+
+        aside {
+            height: 614px;
+            width: 680px;
+            display: flex;
+            background-color: white;
+            float: left;
+        }
+
+        aside ul h2{
+            background-color: #ED9195;
+            color: rgb(190, 40, 73);
+            width: 318px;
+            height: 28px;
+            margin-top: -8px;
+            margin-left: 120px;
+        }
+
+        .h2{
+            font-size: 20px;
+        }
+
+        u[style="color:red"]{
+        margin-left: -40px;
+        }
+        
+        section{
+            height: 560px;
+            width: 315px;
+            display: flex;
+            background-color: black;
+            float: left;
+            margin-top: 10px;   
+        }
+
+        .ellipse-image img{
+            width: 95%; 
+            height: 100%;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: 3px 11px 9px #f79ea3;
+        }
+
+        aside input[type="text"] {
+            width: 270px;
+            height: 30px;
+            box-shadow: 5px rgb(252, 243, 243);
+            margin-left: -30px;
+        }
+
+        aside input[placeholder="Last Name"] {
+            width: 270px;
+            height: 30px;
+            box-shadow: 5px rgb(252, 243, 243);
+            margin-left: 30px;
+        }
+
+        aside input[placeholder="Telephone"] {
+            width: 270px;
+            height: 30px;
+            box-shadow: 5px rgb(252, 243, 243);
+            margin-left: 30px;
+        }
+
+        aside input[type="email"] {
+            width: 270px;
+            height: 30px;
+            box-shadow: 5px rgb(252, 243, 243);
+            margin-left: -30px;
+            margin-top: 20px;
+        }
+
+        aside select{
+            width: 280px;
+            height: 35px;
+            box-shadow: 5px rgb(252, 243, 243);
+            margin-left: -30px;
+            margin-top: 20px;
+        }
+
+        aside input[type="radio"]{
+            margin-left: 30px;
+        } 
+
+        aside label {
+        margin-right: 5px; 
+        }
+
+        aside input[placeholder="Comment"] {
+            width: 580px;
+            height: 50px;
+            box-shadow: 5px rgb(252, 243, 243);
+            margin-left: -30px;
+            margin-top: 20px;
+        }
+
+        aside input[value="Submit"] {
+            margin-left: -30px;
+        }
+
+        section h2{
+            margin-top: 0px;
+        }
+
+        section ul h2 {
+            margin-top: 27px;
+            margin-left: -80px;
+        }
+
+        section ul img{
+            margin-top: -20px;
+            margin-left: -80px;
+        }
+
+        section ul p{
+            margin-top: -20px;
+            margin-left: -80px;
+        }
+
+        footer{
+            height: 50px;
+            width: 1200px;
+            font-size: 20px;
+            background-color: #ED9195;
+            text-align: center;
+            color: white;
+            padding-top: 5px;
+            border: 1px solid rgb(197, 114, 142);
+        }
+    
+        
+
+    </style>
+</head>
+<body>
+    <div class="p">
+        <header>
+            <h2><i>EXAMPLE CAFE MENU</i></h2>
+        </header>
+
+        <nav>
+            <img src="icons8-home-50.png" alt="" width="20px" heigth="20px">
+            <p>&nbsp; <span style="color: rgb(35, 35, 82);">|</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>STARTER</strong> &nbsp; <span style="color: rgb(35, 35, 82);">|</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>MAIN COURSES</strong> &nbsp; <span style="color: rgb(35, 35, 82);">|</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>DESSERTS</strong>&nbsp; <span style="color: rgb(35, 35, 82);">|</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="fstname" id="fstname">
+                <input type="submit" value="Go">
+            </p>
+        </nav>
+    <div class="content">
+        <article>
+            <ul>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cafe Latte</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Campuchino</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ocean Blue</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ice-cream Cafe</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Order Online</li>
+                <p class="ellipse-image">
+                    <img src="company.png" alt="">
+                </p>
+            </ul>    
+        </article>
+        <aside>
+            <ul>
+                <h2>&nbsp;&nbsp;&nbsp;S &nbsp;t &nbsp;a &nbsp;r &nbsp;t &nbsp;e &nbsp;r</h2>
+
+                <li>Chesnut and Mushroom Goujons<b style="color: red;">(<u>v</u>)</b></li>
+                <li>Goat Cheese<b style="color: red;">(<u>v</u>)</b></li>
+                <li><b style="color: rgb(223, 140, 45);">HONEY SOY CHICKEN KEBABS</b><b style="color: red;">(<u>V</u>)</b></li>
+                <li>Seafood Salad<b style="color: red;">(<u>v</u>)</b></li>
+                <u style="color:red" >Back to Top</u>
+
+                <p><h2>&nbsp;&nbsp;&nbsp;D &nbsp;e &nbsp;s &nbsp;s &nbsp;e &nbsp;r &nbsp;t &nbsp;s</h2></p>
+
+                <li>Lemon Sorbet<b style="color: red;">(<u>v</u>)</b></li>
+                <li>Chocolate Mud Pie<b style="color: red;">(<u>v</u>)</b></li>
+                <li>Pecan Pie<b style="color: red;">(<u>v</u>)</b></li>
+                <li>Selection of fine Cheese from Around the Word<b style="color: red;">(<u>v</u>)</b></li>
+                <u style="color:red">Back to Top</u>
+
+                <p><h2 class="h2">&nbsp;&nbsp;&nbsp;I &nbsp;N &nbsp;F &nbsp;O &nbsp;R &nbsp;M &nbsp;A &nbsp;T &nbsp;I &nbsp;O &nbsp;N</h2></p>
+
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Telephone">
+                <select>
+                    <option value="1">USA</option>
+                    <option value="2">VIET NAM</option>
+                    <option value="3">KOREA</option>
+                </select>
+                <input type="radio" > <label>Vietnamese</label>
+                <input type="radio"> <label>Foreigner</label>
+                <input type="text" placeholder="Comment" ><br><br>
+                <input type="submit" value="Submit">
+                <input type="submit" value="Cacle">
+            </ul>
+        </aside>
+        <section>
+            <p>
+                <h2 style="color: white;">Events</h2>
+                <ul>
+                    <h2 style="color: white;">Regular Meetings</h2>
+                    <img src="meeting.png" alt="" width="260px" height="150px">
+                    <p style="color: white;"><br>Host your ragular team meetings or activities in the comfort of your own private room. <a href="#" style="color: #ED9195;">Read more...</a></p>
+                  
+                    <h2 style="color: white;">Product Launches</h2>
+                    <img src="launch.png" alt="" width="260px" height="150px" >
+                    <p style="color: white;"><br>Launch your product with ease in a space that truly fits its image. <a href="#" style="color: #ED9195;">Read more...</a></p>
+                </ul>    
+                
+            </p>
+        </section>
+    </div>
+    
+        <footer>
+            <address><strong>ABC Company <sup> ©</sup> - 12345678 - abccoffee@gmail.com</strong></address>
+        </footer>
+    </div>
+</body>
+</html>

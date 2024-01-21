@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 1</title>
+    <style>
+        #b{
+            max-width: 25%;
+            padding: 20px;
+            margin: auto;
+            border: 2px solid;
+        }
+        /*thêm kiểu cho liên kết khi hover */
+        a:hover{
+            text-decoration: underline;
+        }
+        a[href="Back to stop"] {
+            color:purple; 
+        }
+    </style>
+
+</head>
+<body>
+    <div id="b">
+        <h1>Example Cafe Menu</h1>
+        <a href="#starters">Starters | </a>
+        <a href="#main-courses">Main courses | </a>
+        <a href="#desserts">Desserts</a>
+    
+        <h1 id="starters">Starters</h1>
+        <ul>
+            <li>Chestnut and Mushroom Goujons(<u style="color: purple;">v</u>)</li>
+            <li>Goat Cheese Salad(<u style="color: purple;">v</u>)</li>
+            <li>Honey Soy Chicken Kebabs</li>
+            <li>Seafood Salad</li>
+        </ul>
+        <a href="Back to stop">Back to stop</a>
+        <h1 id="main-courses">Main courses</h1>
+        <ul>
+            <li>Spinach and Ricotta Roulade(<u style="color: purple;">v</u>)</li>
+            <li>Beef Tournados with Mustard and Dill Sauce</li>
+            <li>Icelandic Cod with Parsley Sauce</li>
+            <li>Mushroom Wellington(<u style="color: purple;">v</u>)</li>
+        </ul>
+        <a href="Back to stop">Back to stop</a>
+
+        <h1 id="desserts">Desserts</h1>
+        <ul>
+            <li>Lemon Sorbet(<u style="color: purple;">v</u>)</li>
+            <li>Chocolate Mud Pie(<u style="color: purple;">v</u>)</li>
+            <li>Pecan Pie(<u style="color: purple;">v</u>)</li>
+            <li>Selection of Fine Cheeses from Around the World</li>
+        </ul>
+        <a href="Back to stop">Back to stop</a>
+        <p>Items marked with a(v) are suitable for vegetarians</p>
+    </div>
+</body>
+</html>
